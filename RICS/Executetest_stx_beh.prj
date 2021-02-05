@@ -1,0 +1,7 @@
+verilog isim_temp "muxTwoToOne.v"
+verilog isim_temp "sixteenMuxTwoToOne.v"
+verilog isim_temp "ALUControl.v"
+verilog isim_temp "ALU.v"
+verilog isim_temp "Execute.v"
+verilog isim_temp "Executetest.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

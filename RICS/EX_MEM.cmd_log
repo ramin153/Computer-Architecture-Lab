@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj RICS -o D:/RICS/EX_MEM.tfi -lib work D:/RICS//EX_MEM.v -module EX_MEM -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

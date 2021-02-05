@@ -1,0 +1,3 @@
+vhdtdtfi -lib work D:/RICS/artificialClock.v -lang verilog -prj RICS -o artificialClock.spl -module artificialClock -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 artificialClock.spl D:/RICS/artificialClock.sym 
+vhdtdtfi -lang verilog -prj RICS -o D:/RICS/artificialClock.tfi -lib work D:/RICS//artificialClock.v -module artificialClock -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

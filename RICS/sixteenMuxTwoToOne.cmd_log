@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "D:/RICS/sixteenMuxTwoToOne.xst" -ofn "D:/RICS/sixteenMuxTwoToOne.syr" 
+xst -intstyle ise -ifn "D:/RICS/sixteenMuxTwoToOne.xst" -ofn "D:/RICS/sixteenMuxTwoToOne.syr" 
+xst -intstyle ise -ifn "D:/RICS/sixteenMuxTwoToOne.xst" -ofn "D:/RICS/sixteenMuxTwoToOne.syr" 
+vhdtdtfi -lang verilog -prj RICS -o D:/RICS/sixteenMuxTwoToOne.tfi -lib work D:/RICS//sixteenMuxTwoToOne.v -module sixteenMuxTwoToOne -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj RICS -o D:/RICS/sixteenMuxTwoToOne.tfi -lib work D:/RICS//sixteenMuxTwoToOne.v -module sixteenMuxTwoToOne -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj RICS -o D:/RICS/sixteenMuxTwoToOne.tfi -lib work D:/RICS//sixteenMuxTwoToOne.v -module sixteenMuxTwoToOne -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

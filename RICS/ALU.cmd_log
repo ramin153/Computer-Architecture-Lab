@@ -1,0 +1,3 @@
+vhdtdtfi -lib work D:/RICS/ALU.v -lang verilog -prj RICS -o ALU.spl -module ALU -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 ALU.spl D:/RICS/ALU.sym 
+vhdtdtfi -lang verilog -prj RICS -o D:/RICS/ALU.tfi -lib work D:/RICS//ALU.v -module ALU -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

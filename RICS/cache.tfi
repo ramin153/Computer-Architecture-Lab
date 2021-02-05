@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+cache instance_name (
+    .inp_address(inp_address), 
+    .inp_lineData(inp_lineData), 
+    .inp_clk(inp_clk), 
+    .out_instruction(out_instruction), 
+    .out_hit(out_hit)
+    );
+
+

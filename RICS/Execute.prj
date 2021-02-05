@@ -1,0 +1,5 @@
+verilog work "muxTwoToOne.v"
+verilog work "sixteenMuxTwoToOne.v"
+verilog work "ALUControl.v"
+verilog work "ALU.v"
+verilog work "Execute.v"

@@ -1,0 +1,10 @@
+
+
+
+// Instantiate the module
+artificialClock instance_name (
+    .inp_clk(inp_clk), 
+    .out_clk(out_clk)
+    );
+
+

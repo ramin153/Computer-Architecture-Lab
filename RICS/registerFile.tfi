@@ -1,0 +1,16 @@
+
+
+
+// Instantiate the module
+registerFile instance_name (
+    .inp_clk(inp_clk), 
+    .inp_flagWrite(inp_flagWrite), 
+    .inp_dataWrite(inp_dataWrite), 
+    .inp_regWrite(inp_regWrite), 
+    .inp_rs(inp_rs), 
+    .inp_rd(inp_rd), 
+    .out_readdata1(out_readdata1), 
+    .out_readData2(out_readData2)
+    );
+
+

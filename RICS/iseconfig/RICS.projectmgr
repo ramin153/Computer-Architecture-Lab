@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="RICS" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/CPU D:|RICS|CPU.v</ClosedNode>
+         <ClosedNode>/ControlUnit D:|RICS|ControlUnit.v</ClosedNode>
+         <ClosedNode>/Decode D:|RICS|Decode.v</ClosedNode>
+         <ClosedNode>/Execute D:|RICS|Execute.v</ClosedNode>
+         <ClosedNode>/Execute D:|RICS|Execute.v/instance_name - sixteenMuxTwoToOne</ClosedNode>
+         <ClosedNode>/Fetch D:|RICS|Fetch.v</ClosedNode>
+         <ClosedNode>/Fetch D:|RICS|Fetch.v/muxsixteen_Fetch - sixteenMuxTwoToOne</ClosedNode>
+         <ClosedNode>/MIPS D:|RICS|MIPS.v/MIPS_ControlUnit - ControlUnit</ClosedNode>
+         <ClosedNode>/MIPS D:|RICS|MIPS.v/MIPS_Decode - Decode</ClosedNode>
+         <ClosedNode>/MIPS D:|RICS|MIPS.v/MIPS_Execute - Execute</ClosedNode>
+         <ClosedNode>/MIPS D:|RICS|MIPS.v/MIPS_Execute - Execute/sixteenMuxTwoToOne_Execute - sixteenMuxTwoToOne</ClosedNode>
+         <ClosedNode>/MIPS D:|RICS|MIPS.v/MIPS_Fetch - Fetch/muxsixteen_Fetch - sixteenMuxTwoToOne</ClosedNode>
+         <ClosedNode>/MIPS D:|RICS|MIPS.v/instance_name - Execute</ClosedNode>
+         <ClosedNode>/multiplier D:|RICS|multiplier.v</ClosedNode>
+         <ClosedNode>/sixteenMuxTwoToOne D:|RICS|sixteenMuxTwoToOne.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>mem_Fetch - memoryInstructions (D:/RICS/memoryInstructions.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001d2000000020000000000000000000000000200000064ffffffff000000810000000300000002000001d20000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>mem_Fetch - memoryInstructions (D:/RICS/memoryInstructions.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000180000000010000000100000000000000000000000064ffffffff000000810000000000000001000001800000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >18</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000002d2000000040101000100000000000000000000000064ffffffff0000008100000000000000040000006900000001000000000000004800000001000000000000005d0000000100000000000001c40000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>muxTwoToOne.v</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000180000000010000000100000000000000000000000064ffffffff000000810000000000000001000001800000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/CPU D:|RICS|CPU.v</ClosedNode>
+         <ClosedNode>/ControlUnit D:|RICS|ControlUnit.v</ClosedNode>
+         <ClosedNode>/Decode D:|RICS|Decode.v</ClosedNode>
+         <ClosedNode>/Decodetest D:|RICS|Decodetest.v</ClosedNode>
+         <ClosedNode>/Execute D:|RICS|Execute.v</ClosedNode>
+         <ClosedNode>/Executetest D:|RICS|Executetest.v</ClosedNode>
+         <ClosedNode>/Executetest D:|RICS|Executetest.v/uut - Execute/ALU_Execute - ALU/multiplier_ALU - multiplier</ClosedNode>
+         <ClosedNode>/Executetest D:|RICS|Executetest.v/uut - Execute/sixteenMuxTwoToOne_Execute - sixteenMuxTwoToOne</ClosedNode>
+         <ClosedNode>/Fetch D:|RICS|Fetch.v</ClosedNode>
+         <ClosedNode>/ID_EXtest D:|RICS|ID_EXtest.v</ClosedNode>
+         <ClosedNode>/IF_IDtest D:|RICS|IF_IDtest.v</ClosedNode>
+         <ClosedNode>/MIPS D:|RICS|MIPS.v/MIPS_ControlUnit - ControlUnit</ClosedNode>
+         <ClosedNode>/MIPS D:|RICS|MIPS.v/MIPS_Execute - Execute</ClosedNode>
+         <ClosedNode>/MIPS D:|RICS|MIPS.v/MIPS_Fetch - Fetch</ClosedNode>
+         <ClosedNode>/MyClock D:|RICS|MyClock.v</ClosedNode>
+         <ClosedNode>/PCtest D:|RICS|PCtest.v</ClosedNode>
+         <ClosedNode>/aluControltest D:|RICS|aluControltest.v</ClosedNode>
+         <ClosedNode>/aluTest D:|RICS|aluTest.v</ClosedNode>
+         <ClosedNode>/cacheTest D:|RICS|cacheTest.v</ClosedNode>
+         <ClosedNode>/controlunittest D:|RICS|controlunittest.v</ClosedNode>
+         <ClosedNode>/cpuTest1 D:|RICS|cpuTest1.v</ClosedNode>
+         <ClosedNode>/cpuTest1 D:|RICS|cpuTest1.v/uut - CPU/cpu_pcMux - sixteenMuxTwoToOne</ClosedNode>
+         <ClosedNode>/cputest D:|RICS|cputest.v</ClosedNode>
+         <ClosedNode>/cputest D:|RICS|cputest.v/uut - CPU/cpu_pcMux - sixteenMuxTwoToOne</ClosedNode>
+         <ClosedNode>/dec_test_2 D:|RICS|dec_test_2.v</ClosedNode>
+         <ClosedNode>/decoder3bitTest1 D:|RICS|decoder3bitTest1.v</ClosedNode>
+         <ClosedNode>/fetchtest D:|RICS|fetchtest.v</ClosedNode>
+         <ClosedNode>/fetchtest D:|RICS|fetchtest.v/uut - Fetch/muxsixteen_Fetch - sixteenMuxTwoToOne</ClosedNode>
+         <ClosedNode>/memoryInsturions D:|RICS|memoryInsturions.v</ClosedNode>
+         <ClosedNode>/mipstest_1 D:|RICS|mipstest_1.v/uut - MIPS/MIPS_ControlUnit - ControlUnit</ClosedNode>
+         <ClosedNode>/mipstest_1 D:|RICS|mipstest_1.v/uut - MIPS/MIPS_Decode - Decode</ClosedNode>
+         <ClosedNode>/mipstest_1 D:|RICS|mipstest_1.v/uut - MIPS/MIPS_Execute - Execute</ClosedNode>
+         <ClosedNode>/mipstest_1 D:|RICS|mipstest_1.v/uut - MIPS/MIPS_Fetch - Fetch</ClosedNode>
+         <ClosedNode>/mipstest_1 D:|RICS|mipstest_1.v/uut - MIPS/MIPS_Fetch - Fetch/muxsixteen_Fetch - sixteenMuxTwoToOne</ClosedNode>
+         <ClosedNode>/muxTwoToOneTest D:|RICS|muxTwoToOneTest.v</ClosedNode>
+         <ClosedNode>/myDivider D:|RICS|myDivider.v</ClosedNode>
+         <ClosedNode>/regFiletest1 D:|RICS|regFiletest1.v</ClosedNode>
+         <ClosedNode>/regfiletest D:|RICS|regfiletest.v</ClosedNode>
+         <ClosedNode>/sixteenMuxTwoToOne D:|RICS|sixteenMuxTwoToOne.v</ClosedNode>
+         <ClosedNode>/sixteenMuxTwoToOneTest D:|RICS|sixteenMuxTwoToOneTest.v</ClosedNode>
+         <ClosedNode>/sixteenMuxTwoToOneTest D:|RICS|sixteenMuxTwoToOneTest.v/uut - sixteenMuxTwoToOne</ClosedNode>
+         <ClosedNode>/testMultiplier D:|RICS|testMultiplier.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>mipstest_1 (D:/RICS/mipstest_1.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >12</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000016c000000020000000000000000000000000200000064ffffffff0000008100000003000000020000016c0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>mipstest_1 (D:/RICS/mipstest_1.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000180000000010000000100000000000000000000000064ffffffff000000810000000000000001000001800000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff0000000000000002000001230000008601000000050100000002</SourceProcessView>
+   <CurrentView>Behavioral Simulation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" />
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

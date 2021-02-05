@@ -1,0 +1,10 @@
+[Inputs]
+in_one
+in_two
+in_select
+[Outputs]
+ou_result
+[BiDir]
+[ATTRIBUTES]
+VeriModel muxTwoToOne
+

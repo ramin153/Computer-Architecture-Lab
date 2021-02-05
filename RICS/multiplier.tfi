@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+multiplier instance_name (
+    .inp_clk(inp_clk), 
+    .inp_a(inp_a), 
+    .inp_b(inp_b), 
+    .out_result(out_result), 
+    .out_done(out_done)
+    );
+
+

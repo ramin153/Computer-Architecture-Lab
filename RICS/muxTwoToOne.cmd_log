@@ -1,0 +1,15 @@
+xst -intstyle ise -ifn "D:/RICS/muxTwoToOne.xst" -ofn "D:/RICS/muxTwoToOne.syr" 
+xst -intstyle ise -ifn "D:/RICS/muxTwoToOne.xst" -ofn "D:/RICS/muxTwoToOne.syr" 
+xst -intstyle ise -ifn "D:/RICS/muxTwoToOne.xst" -ofn "D:/RICS/muxTwoToOne.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 muxTwoToOne.ngc muxTwoToOne.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o muxTwoToOne_map.ncd muxTwoToOne.ngd muxTwoToOne.pcf 
+xst -intstyle ise -ifn "D:/RICS/muxTwoToOne.xst" -ofn "D:/RICS/muxTwoToOne.syr" 
+xst -intstyle ise -ifn "D:/RICS/muxTwoToOne.xst" -ofn "D:/RICS/muxTwoToOne.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 muxTwoToOne.ngc muxTwoToOne.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o muxTwoToOne_map.ncd muxTwoToOne.ngd muxTwoToOne.pcf 
+par -w -intstyle ise -ol high -mt off muxTwoToOne_map.ncd muxTwoToOne.ncd muxTwoToOne.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml muxTwoToOne.twx muxTwoToOne.ncd -o muxTwoToOne.twr muxTwoToOne.pcf 
+xst -intstyle ise -ifn "D:/RICS/muxTwoToOne.xst" -ofn "D:/RICS/muxTwoToOne.syr" 
+vhdtdtfi -lib work D:/RICS/muxTwoToOne.v -lang verilog -prj RICS -o muxTwoToOne.spl -module muxTwoToOne -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 muxTwoToOne.spl D:/RICS/muxTwoToOne.sym 
+vhdtdtfi -lang verilog -prj RICS -o D:/RICS/muxTwoToOne.tfi -lib work D:/RICS//muxTwoToOne.v -module muxTwoToOne -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

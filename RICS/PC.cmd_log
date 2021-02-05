@@ -1,0 +1,4 @@
+vhdtdtfi -lib work D:/RICS/PC.v -lang verilog -prj RICS -o PC.spl -module PC -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 PC.spl D:/RICS/PC.sym 
+vhdtdtfi -lang verilog -prj RICS -o D:/RICS/PC.tfi -lib work D:/RICS//PC.v -module PC -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj RICS -o D:/RICS/PC.tfi -lib work D:/RICS//PC.v -module PC -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

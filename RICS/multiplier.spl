@@ -1,0 +1,11 @@
+[Inputs]
+inp_clk
+=inp_a[15:0]=
+=inp_b[15:0]=
+[Outputs]
+out_done
+=out_result[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel multiplier
+

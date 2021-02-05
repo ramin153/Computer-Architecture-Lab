@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+adder_subtracterMux instance_name (
+    .inp_control(inp_control), 
+    .inp_result(inp_result), 
+    .inp_var(inp_var), 
+    .out_result(out_result)
+    );
+
+

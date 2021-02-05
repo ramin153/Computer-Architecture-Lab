@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj RICS -o D:/RICS/ControlUnit.tfi -lib work D:/RICS//ControlUnit.v -module ControlUnit -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

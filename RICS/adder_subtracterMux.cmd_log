@@ -1,0 +1,2 @@
+vhdtdtfi -lang verilog -prj RICS -o D:/RICS/adder_subtracterMux.tfi -lib work D:/RICS//adder_subtracterMux.v -module adder_subtracterMux -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj RICS -o D:/RICS/adder_subtracterMux.tfi -lib work D:/RICS//adder_subtracterMux.v -module adder_subtracterMux -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+sixteenMuxTwoToOne instance_name (
+    .in_one(in_one), 
+    .in_two(in_two), 
+    .in_select(in_select), 
+    .ou_result(ou_result)
+    );
+
+

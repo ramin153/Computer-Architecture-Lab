@@ -1,0 +1,11 @@
+[Inputs]
+inp_clk
+=inp_address[15:0]=
+=inp_lineData[63:0]=
+[Outputs]
+out_hit
+=out_instruction[15:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel cache
+

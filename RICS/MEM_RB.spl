@@ -1,0 +1,19 @@
+[Inputs]
+inp_clk
+inp_hit
+inp_memToReg
+inp_regWrite
+=inp_aluResult[15:0]=
+=inp_selectReg[2:0]=
+=inp_readMem[15:0]=
+[Outputs]
+
+out_memToReg
+out_regWrite
+=out_selectReg[2:0]=
+=out_aluResult[15:0]=
+=out_readMem[15:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel MEM_RB
+

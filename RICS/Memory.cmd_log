@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj RICS -o D:/RICS/Memory.tfi -lib work D:/RICS//Memory.v -module Memory -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

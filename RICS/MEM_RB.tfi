@@ -1,0 +1,20 @@
+
+
+
+// Instantiate the module
+MEM_RB instance_name (
+    .inp_clk(inp_clk), 
+    .inp_hit(inp_hit), 
+    .inp_aluResult(inp_aluResult), 
+    .inp_selectReg(inp_selectReg), 
+    .inp_readMem(inp_readMem), 
+    .inp_memToReg(inp_memToReg), 
+    .inp_regWrite(inp_regWrite), 
+    .out_selectReg(out_selectReg), 
+    .out_aluResult(out_aluResult), 
+    .out_readMem(out_readMem), 
+    .out_memToReg(out_memToReg), 
+    .out_regWrite(out_regWrite)
+    );
+
+

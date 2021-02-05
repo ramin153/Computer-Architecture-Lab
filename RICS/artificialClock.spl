@@ -1,0 +1,8 @@
+[Inputs]
+inp_clk
+[Outputs]
+out_clk
+[BiDir]
+[ATTRIBUTES]
+VeriModel artificialClock
+

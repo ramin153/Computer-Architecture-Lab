@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj RICS -o D:/RICS/Decoder3bit.tfi -lib work D:/RICS//Decoder3bit.v -module Decoder3bit -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

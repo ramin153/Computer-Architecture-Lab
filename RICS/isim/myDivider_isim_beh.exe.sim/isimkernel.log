@@ -1,0 +1,28 @@
+Command line:
+   myDivider_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  4677
+
+Sat Jan 30 20:38:43 2021
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5180.32 Meg
+
+ Total Signals          : 19
+ Total Nets             : 111
+ Total Signal Drivers   : 11
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 16
+ Total Traceable Variables  : 29
+ Total Scalar Nets and Variables : 374
+
+ Total Simulation Time: 0.140625 sec
+
+ Current Memory Usage: 5023.03 Meg
+
+Sat Jan 30 20:39:43 2021
+

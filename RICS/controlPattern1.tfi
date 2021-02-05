@@ -1,0 +1,10 @@
+
+
+
+// Instantiate the module
+controlPattern1 instance_name (
+    .inp_data(inp_data), 
+    .out_result(out_result)
+    );
+
+

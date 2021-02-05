@@ -1,0 +1,3 @@
+vhdtdtfi -lib work D:/RICS/Fetch.v -lang verilog -prj RICS -o Fetch.spl -module Fetch -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 Fetch.spl D:/RICS/Fetch.sym 
+vhdtdtfi -lang verilog -prj RICS -o D:/RICS/Fetch.tfi -lib work D:/RICS//Fetch.v -module Fetch -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

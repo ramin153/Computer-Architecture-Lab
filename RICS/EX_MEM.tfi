@@ -1,0 +1,30 @@
+
+
+
+// Instantiate the module
+EX_MEM instance_name (
+    .inp_clk(inp_clk), 
+    .inp_hit(inp_hit), 
+    .inp_zero(inp_zero), 
+    .inp_aluResult(inp_aluResult), 
+    .inp_selectReg(inp_selectReg), 
+    .inp_data2(inp_data2), 
+    .inp_branchAddress(inp_branchAddress), 
+    .inp_memToReg(inp_memToReg), 
+    .inp_regWrite(inp_regWrite), 
+    .inp_memRead(inp_memRead), 
+    .inp_memWrite(inp_memWrite), 
+    .inp_branch(inp_branch), 
+    .out_zero(out_zero), 
+    .out_aluResult(out_aluResult), 
+    .out_selectReg(out_selectReg), 
+    .out_data2(out_data2), 
+    .out_branchAddress(out_branchAddress), 
+    .out_memToReg(out_memToReg), 
+    .out_regWrite(out_regWrite), 
+    .out_memRead(out_memRead), 
+    .out_memWrite(out_memWrite), 
+    .out_branch(out_branch)
+    );
+
+

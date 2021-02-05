@@ -1,0 +1,40 @@
+
+
+
+// Instantiate the module
+ID_EX instance_name (
+    .inp_clk(inp_clk), 
+    .inp_hit(inp_hit), 
+    .inp_func(inp_func), 
+    .inp_address(inp_address), 
+    .inp_data1(inp_data1), 
+    .inp_data2(inp_data2), 
+    .inp_immdate(inp_immdate), 
+    .inp_rt(inp_rt), 
+    .inp_rd(inp_rd), 
+    .inp_regDst(inp_regDst), 
+    .inp_aluSrc(inp_aluSrc), 
+    .inp_memToReg(inp_memToReg), 
+    .inp_regWrite(inp_regWrite), 
+    .inp_memRead(inp_memRead), 
+    .inp_memWrite(inp_memWrite), 
+    .inp_branch(inp_branch), 
+    .inp_aluOp(inp_aluOp), 
+    .out_func(out_func), 
+    .out_address(out_address), 
+    .out_data1(out_data1), 
+    .out_data2(out_data2), 
+    .out_immdate(out_immdate), 
+    .out_rt(out_rt), 
+    .out_rd(out_rd), 
+    .out_regDst(out_regDst), 
+    .out_aluSrc(out_aluSrc), 
+    .out_memToReg(out_memToReg), 
+    .out_regWrite(out_regWrite), 
+    .out_memRead(out_memRead), 
+    .out_memWrite(out_memWrite), 
+    .out_branch(out_branch), 
+    .out_aluOp(out_aluOp)
+    );
+
+

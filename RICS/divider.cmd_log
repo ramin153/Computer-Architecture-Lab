@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/RICS/divider.xst" -ofn "D:/RICS/divider.syr" 
+vhdtdtfi -lang verilog -prj RICS -o D:/RICS/divider.tfi -lib work D:/RICS//divider.v -module divider -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

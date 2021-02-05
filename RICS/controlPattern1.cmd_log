@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj RICS -o D:/RICS/controlPattern1.tfi -lib work D:/RICS//controlPattern1.v -module controlPattern1 -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

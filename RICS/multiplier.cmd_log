@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "D:/RICS/multiplier.xst" -ofn "D:/RICS/multiplier.syr" 
+xst -intstyle ise -ifn "D:/RICS/multiplier.xst" -ofn "D:/RICS/multiplier.syr" 
+xst -intstyle ise -ifn "D:/RICS/multiplier.xst" -ofn "D:/RICS/multiplier.syr" 
+xst -intstyle ise -ifn "D:/RICS/multiplier.xst" -ofn "D:/RICS/multiplier.syr" 
+xst -intstyle ise -ifn "D:/RICS/multiplier.xst" -ofn "D:/RICS/multiplier.syr" 
+xst -intstyle ise -ifn "D:/RICS/multiplier.xst" -ofn "D:/RICS/multiplier.syr" 
+xst -intstyle ise -ifn "D:/RICS/multiplier.xst" -ofn "D:/RICS/multiplier.syr" 
+xst -intstyle ise -ifn "D:/RICS/multiplier.xst" -ofn "D:/RICS/multiplier.syr" 
+xst -intstyle ise -ifn "D:/RICS/multiplier.xst" -ofn "D:/RICS/multiplier.syr" 
+vhdtdtfi -lib work D:/RICS/multiplier.v -lang verilog -prj RICS -o multiplier.spl -module multiplier -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 multiplier.spl D:/RICS/multiplier.sym 
+vhdtdtfi -lang verilog -prj RICS -o D:/RICS/multiplier.tfi -lib work D:/RICS//multiplier.v -module multiplier -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

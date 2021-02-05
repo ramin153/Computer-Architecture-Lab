@@ -1,0 +1,2 @@
+vhdtdtfi -lang verilog -prj RICS -o D:/RICS/Execute.tfi -lib work D:/RICS//Execute.v -module Execute -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+xst -intstyle ise -ifn "D:/RICS/Execute.xst" -ofn "D:/RICS/Execute.syr" 

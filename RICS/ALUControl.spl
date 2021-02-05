@@ -1,0 +1,10 @@
+[Inputs]
+=inp_aluOp[1:0]=
+=inp_func[3:0]=
+[Outputs]
+
+=out_aluControl[2:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel ALUControl
+

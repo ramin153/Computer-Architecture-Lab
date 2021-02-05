@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+ALU instance_name (
+    .inp_data1(inp_data1), 
+    .inp_data2(inp_data2), 
+    .inp_aluControl(inp_aluControl), 
+    .out_resultAlu(out_resultAlu), 
+    .out_zero(out_zero)
+    );
+
+

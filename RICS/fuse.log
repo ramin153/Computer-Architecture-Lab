@@ -1,0 +1,65 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/RICS/mipstest_1_isim_beh.exe" -prj "D:/RICS/mipstest_1_beh.prj" "work.mipstest_1" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/RICS/controlPattern1.v" into library work
+Analyzing Verilog file "D:/RICS/adder_subtracterMux.v" into library work
+Analyzing Verilog file "D:/RICS/muxTwoToOne.v" into library work
+Analyzing Verilog file "D:/RICS/multiplier.v" into library work
+Analyzing Verilog file "D:/RICS/divider.v" into library work
+Analyzing Verilog file "D:/RICS/sixteenMuxTwoToOne.v" into library work
+Analyzing Verilog file "D:/RICS/registerFile.v" into library work
+Analyzing Verilog file "D:/RICS/PC.v" into library work
+Analyzing Verilog file "D:/RICS/memoryInstructions.v" into library work
+Analyzing Verilog file "D:/RICS/Decoder3bit.v" into library work
+Analyzing Verilog file "D:/RICS/cache.v" into library work
+Analyzing Verilog file "D:/RICS/ALUControl.v" into library work
+Analyzing Verilog file "D:/RICS/ALU.v" into library work
+Analyzing Verilog file "D:/RICS/MEM_RB.v" into library work
+Analyzing Verilog file "D:/RICS/Memory.v" into library work
+Analyzing Verilog file "D:/RICS/IF_ID.v" into library work
+Analyzing Verilog file "D:/RICS/ID_EX.v" into library work
+Analyzing Verilog file "D:/RICS/Fetch.v" into library work
+Analyzing Verilog file "D:/RICS/EX_MEM.v" into library work
+Analyzing Verilog file "D:/RICS/Execute.v" into library work
+Analyzing Verilog file "D:/RICS/Decode.v" into library work
+Analyzing Verilog file "D:/RICS/ControlUnit.v" into library work
+Analyzing Verilog file "D:/RICS/artificialClock.v" into library work
+Analyzing Verilog file "D:/RICS/MIPS.v" into library work
+Analyzing Verilog file "D:/RICS/mipstest_1.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module artificialClock
+Compiling module muxTwoToOne
+Compiling module sixteenMuxTwoToOne
+Compiling module PC
+Compiling module cache
+Compiling module memoryInstructions
+Compiling module Fetch
+Compiling module IF_ID
+Compiling module registerFile
+Compiling module Decode
+Compiling module Decoder3bit
+Compiling module ControlUnit
+Compiling module ID_EX
+Compiling module ALUControl
+Compiling module controlPattern1
+Compiling module adder_subtracterMux
+Compiling module multiplier
+Compiling module divider
+Compiling module ALU
+Compiling module Execute
+Compiling module EX_MEM
+Compiling module Memory
+Compiling module MEM_RB
+Compiling module MIPS
+Compiling module mipstest_1
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 26 Verilog Units
+Built simulation executable D:/RICS/mipstest_1_isim_beh.exe
+Fuse Memory Usage: 28800 KB
+Fuse CPU Usage: 515 ms

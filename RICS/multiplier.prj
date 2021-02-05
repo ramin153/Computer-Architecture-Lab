@@ -1,0 +1,3 @@
+verilog work "controlPattern1.v"
+verilog work "adder_subtracterMux.v"
+verilog work "multiplier.v"

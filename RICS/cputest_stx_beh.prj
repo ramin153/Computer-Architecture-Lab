@@ -1,0 +1,8 @@
+verilog isim_temp "muxTwoToOne.v"
+verilog isim_temp "sixteenMuxTwoToOne.v"
+verilog isim_temp "PC.v"
+verilog isim_temp "memoryInstructions.v"
+verilog isim_temp "cache.v"
+verilog isim_temp "CPU.v"
+verilog isim_temp "cputest.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,6 @@
+vhdtdtfi -lang verilog -prj RICS -o D:/RICS/ALUControl.tfi -lib work D:/RICS//ALUControl.v -module ALUControl -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work D:/RICS/ALUControl.v -lang verilog -prj RICS -o ALUControl.spl -module ALUControl -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 ALUControl.spl D:/RICS/ALUControl.sym 
+vhdtdtfi -lang verilog -prj RICS -o D:/RICS/ALUControl.tfi -lib work D:/RICS//ALUControl.v -module ALUControl -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj RICS -o D:/RICS/ALUControl.tfi -lib work D:/RICS//ALUControl.v -module ALUControl -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj RICS -o D:/RICS/ALUControl.tfi -lib work D:/RICS//ALUControl.v -module ALUControl -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

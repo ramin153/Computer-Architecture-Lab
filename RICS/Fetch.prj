@@ -1,0 +1,6 @@
+verilog work "muxTwoToOne.v"
+verilog work "sixteenMuxTwoToOne.v"
+verilog work "PC.v"
+verilog work "memoryInstructions.v"
+verilog work "cache.v"
+verilog work "Fetch.v"

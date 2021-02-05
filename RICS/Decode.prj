@@ -1,0 +1,2 @@
+verilog work "registerFile.v"
+verilog work "Decode.v"

@@ -1,0 +1,12 @@
+[Inputs]
+inp_clk
+inp_pcSrc
+=inp_branch[15:0]=
+[Outputs]
+out_hit
+=out_PCTwo[15:0]=
+=out_instruction[15:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel Fetch
+

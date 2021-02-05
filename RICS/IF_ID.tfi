@@ -1,0 +1,14 @@
+
+
+
+// Instantiate the module
+IF_ID instance_name (
+    .inp_clk(inp_clk), 
+    .inp_hit(inp_hit), 
+    .inp_instruction(inp_instruction), 
+    .inp_address(inp_address), 
+    .out_instruction(out_instruction), 
+    .out_address(out_address)
+    );
+
+

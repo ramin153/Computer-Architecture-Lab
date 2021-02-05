@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+memoryInstructions instance_name (
+    .inp_address(inp_address), 
+    .inp_clk(inp_clk), 
+    .out_dataLine(out_dataLine)
+    );
+
+

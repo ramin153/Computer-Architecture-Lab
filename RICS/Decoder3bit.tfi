@@ -1,0 +1,10 @@
+
+
+
+// Instantiate the module
+Decoder3bit instance_name (
+    .inputs(inputs), 
+    .outputs(outputs)
+    );
+
+

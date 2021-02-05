@@ -1,0 +1,10 @@
+[Inputs]
+inp_clk
+inp_ChangeAddress
+=inp_nextInstructionAddress[15:0]=
+[Outputs]
+=out_address[15:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel PC
+

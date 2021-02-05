@@ -1,0 +1,14 @@
+
+
+
+// Instantiate the module
+Fetch instance_name (
+    .inp_clk(inp_clk), 
+    .inp_branch(inp_branch), 
+    .inp_pcSrc(inp_pcSrc), 
+    .out_PCTwo(out_PCTwo), 
+    .out_hit(out_hit), 
+    .out_instruction(out_instruction)
+    );
+
+

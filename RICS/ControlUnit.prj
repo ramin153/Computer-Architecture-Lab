@@ -1,0 +1,2 @@
+verilog work "Decoder3bit.v"
+verilog work "ControlUnit.v"

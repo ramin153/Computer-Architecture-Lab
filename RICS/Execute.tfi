@@ -1,0 +1,16 @@
+
+
+
+// Instantiate the module
+Execute instance_name (
+    .inp_aluSrc(inp_aluSrc), 
+    .inp_aluOp(inp_aluOp), 
+    .inp_fucn(inp_fucn), 
+    .inp_data1(inp_data1), 
+    .inp_data2(inp_data2), 
+    .inp_immidate(inp_immidate), 
+    .out_zero(out_zero), 
+    .out_aluResult(out_aluResult)
+    );
+
+
